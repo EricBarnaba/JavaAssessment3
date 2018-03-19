@@ -1,6 +1,8 @@
 package user_management;
 
-public class UserCollection {
+import java.util.ArrayList;
+
+public class UserCollection extends ArrayList<User> {
 
     public User findById(int id) {
         return null;
