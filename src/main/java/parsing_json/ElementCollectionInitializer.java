@@ -15,9 +15,7 @@ public class ElementCollectionInitializer  {
         ElementCollection elements = new ElementCollection();
         Element[] array = gson.fromJson(reader,Element[].class);
         elements.addAll(Arrays.asList(array));
-//        for(Element e : array){
-//            elements.add(e);
-//        }
+
         return elements;
     }
 }
